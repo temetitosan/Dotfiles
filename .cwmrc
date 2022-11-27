@@ -1,0 +1,33 @@
+#Theme settings
+borderwidth 2
+color activeborder      "#FBA922"
+color inactiveborder    "#1E1E1E"
+color menubg            "#1E1E1E"
+color menufg            "#1E1E1E"
+color font              "#FFFFFF"
+color selfont           "#FBA922"
+
+#Set Font
+fontname                "Monospace:size=12"
+
+#Keybindings
+#C = control  S = Shift  4 = Mod4 (super key0
+#Unbind Defaults
+unbind-key      all
+unbind-mouse    M-1
+unbind-mouse    M-2
+unbind-mouse    M-3
+
+bind-key        4S-e    quit
+bind-key        4S-r    restart
+bind-key        4S-q    window-close
+bind-key        4-Return xterm
+
+bind-mouse      4-1     window-move
+bind-mouse      4-3     window-resize
+
+#Applications Menu
+command         chromium chrome
+command         xterm    xterm
+command         pcmanfm  pcmanfm
+command         calculator xcal
