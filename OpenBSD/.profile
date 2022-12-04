@@ -3,3 +3,4 @@
 # sh/ksh initialization
 
 export ENV=~/.kshrc
+export TERM=wsvt25
